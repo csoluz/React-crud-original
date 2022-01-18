@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Renato Lopret Alterado",
+      "email": "rlopret@globe.com.bra",
+      "message": "Seja bem vindo! todos"
+    },
+    {
+      "id": 2,
+      "name": "Eliana Bonnet",
+      "email": "ebonnet@globe.com.br",
+      "message": "Legal, como vão vocês!"
+    }
+  ]
+}

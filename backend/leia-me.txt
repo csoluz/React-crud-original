@@ -1,0 +1,18 @@
+Passos iniciais para construção do projeto backend
+
+1 - Criar o package.json --> Comando no Terminal--> 
+    C:\DioMessages\backend> npm init -y
+
+2 - Instalar o servidor json-server --> Comando no Terminal --> 
+    C:\DioMessages\backend> npm i --save json-server@0.13.0 -E
+
+3 - Dentro da pasta backend criar um arquivo chamada db.json e criar a estrutura básica de 
+    webService de Id, Usuário, Email e Mensagem, vide o arquivo criado no projeto
+
+4 - Modificar o arquivo package.json e substitui scripts por:
+    "scripts": {
+        "start": "json-server --watch db.json --port 3001"
+    }
+
+5 - Para iniciar o servidor --> Comando no Terminal -->
+    C:\DioMessages\backend> npm start
